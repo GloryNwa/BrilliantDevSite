@@ -11,8 +11,6 @@ $db_password = '45Ycve6I4H';
 $db_name = 'xgvSlBvFcG';
 
 
-$con = mysqli_connect(' remotemysql.com','xgvSlBvFcG', '45Ycve6I4H');
-
 $connection = mysqli_connect($db_host,$db_user,$db_password, $db_name);
 	if($connection){
 		echo "";
